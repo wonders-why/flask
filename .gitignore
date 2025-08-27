@@ -1,0 +1,33 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment / config files
+*.env
+*.env.*
+*.ini
+*.cfg
+
+# IDE / editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter stuff (if you run notebooks inside Flask env)
+.ipynb_checkpoints/
