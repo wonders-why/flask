@@ -1,0 +1,8 @@
+{
+    "users": [
+        {"id": 1, "name": "Zen", "age": 22, "city": "Delhi"},
+        {"id": 2, "name": "Deepak", "age": 21, "city": "Lucknow"},
+        {"id": 3, "name": "Ravi", "age": 23, "city": "Mumbai"},
+        {"id": 4, "name": "Anya", "age": 21, "city": "Delhi"}
+    ]
+}
