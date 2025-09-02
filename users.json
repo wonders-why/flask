@@ -1,13 +1,18 @@
 {
     "users": [
         {
-            "id": 2,
+            "id": 1,
             "name": "Zen",
             "email": "zen@example.com"
         },
         {
-            "id": 878,
+            "id": 2,
             "name": "Deepak",
+            "role": "Python Developer"
+        },
+        {
+            "id": 3,
+            "name": "Alice",
             "role": "Python Developer"
         }
     ]
