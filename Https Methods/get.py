@@ -13,11 +13,6 @@ def load_data():
     with open(link, "r") as file:
        return json.load(file)
 
-@app.errorhandler(404)
-def handle_404(error):
-    return jsonify({"error": "Resource not found", "status_code": 404}), 404
-
-
 #A all adata route
 @app.route('/users')
 def get_users():

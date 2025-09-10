@@ -20,6 +20,7 @@ def get_user(user_id):
 
     # If we finish loop without returning, user not found
         abort(404, description="User doesn't exist")
+        
     except FileNotFoundError:
         return jsonify({"Error" : "File not found!"})
     except json.JSONDecodeError:
